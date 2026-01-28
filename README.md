@@ -1,29 +1,20 @@
-# ENVR9 - Building Survey System
+# SLK8 Problem Solution: Support of Q/Z Module
 
-## GitHub Branch: ENVR9
-Repository: https://github.com/shellworlds/ENVR/tree/ENVR9
+## Problem Statement
+Let Z be the ring of integers, Q the rational numbers, and set M := Q/Z. 
+Find the support Supp(M), and show that it's not Zariski closed.
 
-## Installation
-Clone repository
-git clone -b ENVR9 https://github.com/shellworlds/ENVR.git
-cd ENVR/ENVR9
+## Project Structure
+Multi-language implementation demonstrating:
+1. Mathematical computation of Supp(M)
+2. Zariski topology analysis
+3. Cross-platform deployment
+4. Collaborative Git workflow
 
-Run system check
-cd system_check && ./system_check.sh
+## Languages & Tools
+Python, Shell, React, Node.js, Next.js, Vite, Java, HTML, C++, Go, etc.
 
-Install and run
-cd ../backend
-pip install -r requirements_envr9.txt
-npm install
-
-Start services
-python fastapi_server.py &
-node server.js &
-
-## API Endpoints
-FastAPI: http://localhost:8000/docs
-Node.js: http://localhost:3000
-Go: http://localhost:8081
-
-## Dashboard
-Open frontend/dashboard.html in browser.
+## System Requirements
+- Linux/Mac/Windows
+- Git, Docker (optional)
+- Multi-language runtimes
